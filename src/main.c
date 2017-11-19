@@ -10,10 +10,6 @@ int ehprimo(int numero){
 		primo=0;
 		return primo;
 	}
-	if (numero == 2 || numero == 3){
-		primo=1;
-		return primo;
-	}
 
 	for(i=1; i<=(numero/2); i++){
     		if(numero%i == 0){
